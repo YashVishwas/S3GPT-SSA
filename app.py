@@ -23,7 +23,6 @@ from io import BytesIO
 from configparser import ConfigParser
 apiendpoint = "https://sibkozko1d.execute-api.us-east-2.amazonaws.com/prod"
 
-
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
