@@ -22,6 +22,8 @@ from io import BytesIO
 
 from configparser import ConfigParser
 apiendpoint = "https://sibkozko1d.execute-api.us-east-2.amazonaws.com/prod"
+OPENAI_API_KEY=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
+
 
 def get_pdf_text(pdf_docs):
     text = ""
